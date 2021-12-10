@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 16 TASK 1 Form</title>
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        span{
+            color: red;
+        }
+        .fa{
+            color: red;
+            
+        }
+
+        tr:nth-child(even){
+            background-color:rgb(233, 241, 248);
+        }
+        .fa-circle-thin{
+            color: black;
+            padding-left: 50px;
+        }
+        td{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div >
+    <h1>HTML-CSS/Tasks/Survey-Form.png</h1>
+    <form>
+        <label for="Name" style="font-weight: bolder;"> Name<span>*</span></label><br>
+        <input  type="text"> 
+        <input  type="text" style="margin-left: 50px;"><br>
+        <label for="First">First</label>
+        <label for="Last" style="padding-left:200px">Last</label><br><br>
+        <label for="Name" style="font-weight: bolder;"> Email<span>*</span></label><br>
+        <input type="text" style="padding-left:235px"><br><br>
+        <label for="Name" style="font-weight: bolder;"> Your Experience<span>*</span></label><br>
+        <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <h5> Overall how would you rate you experience with us</h5>
+         <h1 style="font-weight: bolder;">How satisfied are you with<span>*</span></h1>
+        
+        <table>
+            <tr>
+                <td> </td>
+                <td> Very Unsatisified</td>
+                <td> Unsatisified</td>
+                <td style="padding-left: 75px;"> Neutral</td>
+                <td style="padding-left: 75px;">Satisfied</td>
+                <td> Very Satisfied</td>
+            </tr>
+            <tr>
+                <td style="padding-left: 0pt;">Purchase</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 0pt;">Service</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td  style="padding-left: 0pt;">Compay Overall</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+        </table>
+
+        <h1 style="font-weight: bolder;">How likely are you to <span>*</span></h1>
+        
+        <table>
+            <tr>
+                <td> </td>
+                <td> Very Unlikely</td>
+                <td> Unlikely</td>
+                <td style="padding-left: 75px;"> Neutral</td>
+                <td style="padding-left: 75px;">Likely</td>
+                <td> Very Likely</td>
+            </tr>
+            <tr>
+                <td style="padding-left: 0pt;">Buy from us again</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 0pt;">Recommend our<br> product to others</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td  style="padding-left: 0pt;">Recommend our<br> company to others</td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+                <td><i class="fa fa-circle-thin" aria-hidden="true"></i></td>
+            </tr>
+        </table>
+
+        <h1> Additional comments or suggestions</h1><br>
+        <textarea  rows="5" cols="150"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    </div>
+</body>
+</html>
