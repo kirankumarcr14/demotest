@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 task </title>
+</head>
+<style>
+h1{
+    border: 5px solid gold;
+    padding-top: 25px;
+    padding-left: 60px;
+    width: 500px;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 25px;
+    color: white;
+}
+p{
+    color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: red;
+}
+</style>
+<body>
+    <h1> Javascript - Day -8 : OOP</h1
+    <h2> https://github.com/rvsp/typescript-oops/blob/master/Practice/Movie.md</h2>
+    <p>
+        <span>Task 1 :  </span>The class Movie is stated below. An instance of class Movie represents a film. This class has the following three properties:
+
+title, which is a String representing the title of the movie
+studio, which is a String representing the studio that made the movie
+rating, which is a String representing the rating of the movie (i.e. PG­13, R, etc)
+    </p> <br> <hr>
+    <p>
+        <span>A:</span> Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio, and a String representing the rating as its arguments, and sets the respective class properties to these values.
+    </p>
+    <h2 style="color: blue;"> <span> Answer </span><br>
+        public class Movie <br>
+        { <br>
+            private string movie_title;<br>
+            private string studio_name;<br>
+            private string rating;<br> 
+        }<br>
+    
+    </h2><br> <hr>
+    <p> <span> B</span> The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided</p>
+    <h2 style="color: blue;">
+        public class Movie <br>
+        { <br>
+            private string movie_title;<br>
+            private string studio_name;<br>
+            private string rating="PG";<br> 
+        }<br>
+    </h2><br><hr>
+    <p> <span> C</span> Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full. </p>
+    <h2 style="color: blue;">
+        public static Movie[] getPG(Movie[] mov) {<br>
+            Movie[] pgMov = new Movie[mov.length];<br>
+            int newArrayIndex = 0;<br>
+            for (int i = 0; i < mov.length; i++) {<br>
+            if (mov[i].rating.equals(“PG”)) {<br>
+            pgMov[newArrayIndex] = mov[i];<br>
+            newArrayIndex++;<br>
+            }<br>
+            }<br>
+            return pgMov;<br>
+    </h2><br><hr>
+    <p> <span> D</span> Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”</p>
+    <h2 style="color: blue;">
+        Movie mov = new Movie(“Casino Royale”,”Eon
+ Productions”,”PG-13”);
+    </h2><br><hr>
+<p> <span> Task 3 </span>Write a “person” class to hold all the details.</p><br>
+<h2 style="color: blue;">
+    public class person {<br>
+        private string firstname;<br>
+        private string lastname;<br>
+        private int birthdate;<br>
+
+    }<br>
+</h2><br><hr>
+<p> <span> Task 4 </span>write a class to calculate uber price.</p><br>
+<h2 style="color: blue;">
+    public class Uber_price {<br>
+        private  int distance;<br>
+        private int rate ;<br>
+        private int total_costs;<br>
+
+    }<br>
+</h2><br><hr>
+
+
+
+
+
+
+</body>
+</html>

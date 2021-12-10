@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11 HTML Task to know usage of basic tags.</title>
+</head>
+<style>
+    .form{
+        border: 2px solid black;
+        height: 350px;
+        margin: 12px;
+        width: 650px;
+    }
+    table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+        }
+</style>
+<body>
+<section>
+    <h1>1.Fix the bugs in below snippet</h1>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </section>
+      <h1> 3.Design a contact us form with all fields as required..</h1>
+
+        <div>
+            <form>
+                <label for="Firstname" style="padding-left: 45px;" > First name </label>
+                
+                <label for="lastname" style="padding-left:165px;"> Lastname</label><br>
+                <input type="text" id="firstname" name="firstname">
+                <input type="text" id="lastname" name="lastname" style="padding-left: 45px;"><br>
+                <label  for="Phone number"style="padding-left: 45px"> Phone number</label>
+                <label for="email" style="padding-left: 140px;"> Email id</label><br>
+                <input type="text" id="Phone number"  name="Phone number">
+                <input type="email" id="email"  name="email" style="padding-left: 45px;"><br>
+            <label for="address" style="padding-left: 45px;" > address</label>
+        <label for="Message" style="padding-left: 145px"> Message</label><br>
+        <textarea id="address" rows:"4" cols:"50"></textarea>
+        <textarea id="message" rows:"4" cols:"50"></textarea><br>
+        <input type="submit" >
+        </form>
+        </div>
+
+        <h1> 4.Use certain HTML elements to display the following in a HTML page.</h1>
+        <ul>
+            <li> Programming Language</li>
+            <ul>
+                <li> Javascript</li>
+                <ol type="a">
+                    <li> Angular</li>
+                    <li> React</li>
+                    <li> Vue.js </li>
+                </ol>
+                <li> Python</li>
+                <ol type="a">
+                    <li> Django Framework</li>
+                    <li> Flash Framework</li>
+                </ol>
+                <li> Java</li>
+                <ol type="a">
+                    <li> Spring</li>
+                    <li> Maven</li>
+                    <li> Hibernate</li>
+                </ol>
+            </ul>
+            <li> Database</li>
+            <ul>
+                <li> MYSQL</li>
+                <li> MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </ul>
+        <br>
+
+        <h1> 5. Create an element that helps you to open the https://google.com in separate new tab.</h1>
+        <a  href="https://www.google.com/" target="_blank" > CLick here to google.com</a>
+
+        <br>
+        <h1>6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+        </h1>
+    <form>
+        <input type="radio" id="employee" name="employee">
+        <label for="salaried"> Salaried</label>
+        <input type="radio" id="employee" name="employee">
+        <label for="Own Bussiness"> Own Business</label>
+    </form>
+    <br>
+    <h1>7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)</h1>
+    <div class="form">
+    <form>
+        <h1 style="background-color: red;margin: 10px; color: cornsilk;font-family: 'Times New Roman', Times, serif;">Yes! I want to subscribe to Mag-O-Zine</h1>
+        <input  type="text"  id="firstname"style="padding-left:25px; margin=20px">
+        <input  type="text"  id="Lasttname" style="padding-left: 10px;"><br>
+        <label for="firstname" > First Name</label>
+        <label for="firstname" style="padding-left: 130px;" > Last Name</label>
+         <input  type="text" id="address" style="padding-left: 250px;">
+  <br>
+  <label for="Address"> Address</label>  <br>
+  <input  type="text" id="city">
+  <input  type="text" id="state">
+  <input  type="text" id="ZIP"><br>
+  <label for="Address"> City</label>  
+  <label for="Address"style="padding-left:150px"> State</label>  
+  <label for="Address"style="padding-left:150px"> ZIP</label>  <br>
+  <label for="Subscribe">Subscribe for : </label>
+  <input type="checkbox" id="Subscribe">
+  <label for="1year"> 1year($19.95)</label>
+  <input type="checkbox" id="Subscribe">
+  <label for="2year"> 2years($35.00)</label><br>
+  <h1> Send me more information about:</h1> <br>
+  <input type="checkbox" id="information">
+  <label for="computer zine"> Computer- ZIne</label><br>
+  <input type="checkbox" id="information">
+  <label for="Fishing-Zine"> Fishing- ZIne</label><br>
+  <input type="checkbox" id="information">
+  <label for="Cag-O-zine"> Cat-O- ZIne</label><br>
+
+    </form>
+    </div>
+
+    <h1>8.Use the table tag to design given image Click here.</h1>
+    <table>
+        <tr>
+            <th> State of Health </th>
+            <th colspan="2"> Fasting Value </th>
+            <th> After Remaing</th>
+        </th>
+        <tbody>
+            <td> </td>
+            <td> Minimum</td>
+            <td>Normal</td>
+            <td>  2 hours of Eating </td>
+            <tr>
+                <td> Healthy</td>
+                <td> 70</td>
+                <td> 100</td>
+                <td> Less than 140</td>
+
+            </tr>
+            <tr> 
+                <td> Pre-Diabets</td>
+                <td> 101</td>
+                <td> 126</td>
+                <td> 140 to 200</td>
+            </tr>
+            <tr> 
+                <td> Diabets</td>
+                <td> more than 126</td>
+                <td> NA</td>
+                <td> More than 200</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <h1>9.Write HTML input tags snippet to show default values for all Form elements </h1>
+    <h2> The Form elements are :</h2>
+    <input type="checkbox">
+    <label for="salary">Salary </label>
+    <input type="checkbox">
+    <label for="ownbusiness">Own Business</label><br>
+    <select>
+        <option> Dosa</option>
+        <option> Idli</option>
+    </select><br>
+    <textarea rows="4" cols="20"> Message</textarea><br>
+    <button> click here</button>
+    
+
+    <h1>10.In your, HTML page add the below line and Highlight it without using any CSS.
+        "HTML & CSS is awesome"</h1>
+        <ul><li><b><U>"HTML & CSS is awesome"</U></b></li></ul>
+<h1>11.Create an HTML page, which should contain all types of input elements.</h1>
+<input type="checkbox">
+<label for="a" > A</label><br>
+<input type="text" name="bb" id="bb">
+<label for="bb">B</label><br>
+<input  type="date" name="date">
+<label for="date"> date</label><br>
+<input  type="email">
+<label for="email"> email</label><br>
+<input type="password">
+<label for="password"> password</label>
+<br>
+<input type="url" >
+<label for="url ">URL :</label> 
+
+    </body>
+
+
+      </html>
